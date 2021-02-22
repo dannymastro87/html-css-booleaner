@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+header {
+  background: url('/assets/img/pattern.png') repeat;
+  background-size: 350px;
+  background-color:#4da0fe;
+  height: 80px;
+}
+
+.logo {
+  width: 150px;
+  margin: 30px 0 10px 0;
+}
+
+#author {
+  color:dodgerblue;
+}
+
+.date {
+  font-size: 12px;
+  color: gray;
+  padding-bottom: 30px;
+}
+
+h1 {
+  font-size: 36px;
+  padding-top: 20px;
+}
+
+h3 {
+  color: grey;
+  margin: 20px 0 0 0;
+}
+
+p {
+  font-size: 18px;
+}
+
+.author {
+  color: gray;
+}
+
+.py-10 {
+  padding: 10px 0;
+}
+
+ul {
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+.photo-description {
+  font-size: 12px;
+}
+
+table {
+  margin: 20px 0;
+}
+
+.col-1 {
+  width: 25%;
+}
+
+.col-2 {
+  width: 25%;
+
+}
+
+.col-3 {
+  width: 50%;
+}
+
+th {
+  background-color: #1faae3;
+  color: #ffffff;
+  text-align: left;
+}
+
+tr:nth-child(even) {background-color: #b1e5f2;}
+
+.item {
+  width: 312px;
+  height: 200px;
+  margin: 20px 0;
+}
+
+.item p {
+  color: #ffffff;
+  padding: 10px;
+}
+
+#photo-1 {
+  background: url('/assets/img/monitor.jpg');
+}
+
+#photo-2 {
+  background: url('/assets/img/graph.jpg');  
+}
