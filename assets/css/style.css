@@ -9,8 +9,8 @@
 }
 
 header {
-  background: url('/assets/img/pattern.png') repeat;
-  background-size: 350px;
+  background: url(../img/pattern.png) repeat;
+  background-size: 320px;
   background-color:#4da0fe;
   height: 80px;
 }
@@ -20,7 +20,7 @@ header {
   margin: 30px 0 10px 0;
 }
 
-#author {
+#author-name {
   color:dodgerblue;
 }
 
@@ -33,6 +33,7 @@ header {
 h1 {
   font-size: 36px;
   padding-top: 20px;
+  line-height: 40px;
 }
 
 h3 {
@@ -67,6 +68,7 @@ ul {
 
 table {
   margin: 20px 0;
+  border-spacing: 0;
 }
 
 .col-1 {
@@ -93,6 +95,10 @@ tr:nth-child(even) {background-color: #b1e5f2;}
 .item {
   width: 312px;
   height: 200px;
+  margin: 5px 0;
+}
+
+footer {
   margin: 20px 0;
 }
 
