@@ -105,12 +105,13 @@ footer {
 .item p {
   color: #ffffff;
   padding: 10px;
+  background-size: cover;
 }
 
 #photo-1 {
-  background: url('/assets/img/monitor.jpg');
+  background: url(../img/monitor.jpg);
 }
 
 #photo-2 {
-  background: url('/assets/img/graph.jpg');  
+  background: url(../img/graph.jpg);  
 }
